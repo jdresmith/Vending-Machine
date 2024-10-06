@@ -1,0 +1,44 @@
+.snack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the content vertically */
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.snack-card {
+    background-color: #ffcc00; /* Doritos-like color */
+    border: 2px solid #ff9900; /* Slightly darker border */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Fixed width for the card */
+    position: relative;
+}
+
+.snack-title {
+    font-size: 24px;
+    color: #333; /* Dark color for the title */
+    margin-bottom: 10px;
+}
+
+.snack-description {
+    font-size: 16px;
+    color: #666; /* Slightly lighter for description */
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    background-color: #4CAF50; /* Button-like appearance */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
